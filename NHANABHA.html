@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience exciting white water rafting adventures with professional guides and unforgettable river trips.">
+    <meta name="author" content="Your Full Name">
+    <title>About Us | White Water Rafting Adventures</title>
+
+    <style>
+        :root {
+            --primary-color: #1d3557;
+            --secondary-color: #457b9d;
+            --accent1-color: #0f4c5c;
+            --accent2-color: #f1faee;
+            --heading-font: Georgia, serif;
+            --body-font: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--body-font);
+            color: var(--accent1-color);
+        }
+
+        header,
+        main,
+        footer {
+            width: 840px;
+            margin: 0 auto;
+        }
+
+        h1,
+        h2 {
+            font-family: var(--heading-font);
+            color: var(--primary-color);
+        }
+
+        nav,
+        p,
+        section,
+        article {
+            margin: 16px;
+            padding: 8px;
+        }
+
+        .socialmedia a {
+            text-decoration: none;
+        }
+
+        .hero {
+            position: relative;
+        }
+
+        .hero > img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .hero h1 {
+            position: absolute;
+            top: 20px;
+            width: 100%;
+            padding: 16px;
+            text-align: center;
+            background-color: rgba(15, 76, 92, 0.8);
+            color: white;
+        }
+
+        .hero article {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 20px;
+        }
+
+        .hero article img {
+            float: right;
+            width: 125px;
+            margin-left: 15px;
+            border: 2px solid #000;
+        }
+
+        header {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            align-items: center;
+        }
+
+        header img {
+            width: 150px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+
+        .socialmedia img {
+            width: 32px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <img src="images/hero.jpg" alt="White Water Rafting Adventure">
+
+            <h1>White Water Rafting Adventures</h1>
+
+            <article>
+                <img src="images/happy-client.jpg" alt="Happy Rafting Customer">
+
+                <p>
+                    Our mission is to provide exciting, safe, and memorable
+                    white water rafting experiences for adventurers of all ages.
+                    We believe every trip should create lasting memories,
+                    inspire teamwork, and foster a love for the outdoors.
+                </p>
+            </article>
+        </div>
+
+        <section>
+            <h2>History</h2>
+
+            <p>
+                Founded in 2010, White Water Rafting Adventures began as a
+                small family business with a passion for outdoor recreation.
+                Over the years, we have guided thousands of guests through
+                exhilarating rapids and breathtaking river canyons while
+                maintaining our commitment to safety and exceptional service.
+            </p>
+        </section>
+
+        <section>
+            <h2>Adventure Awaits You!</h2>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 White Water Rafting Adventures | WILLIAM AGBENYEGAH </p>
+
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn">
+            </a>
+
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+</html>
